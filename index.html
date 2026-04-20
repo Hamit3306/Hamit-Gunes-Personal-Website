@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamit Güneş | Software Engineer</title>
+    <meta name="description" content="Portfolio of Hamit Güneş, Software Engineer at Ankara Science University.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <header>
+        <nav class="container">
+            <div class="logo">Hamit<span>Güneş</span></div>
+            <ul class="nav-links">
+                <li><a href="#about" data-i18n="nav-about">About</a></li>
+                <li><a href="#education" data-i18n="nav-education">Education</a></li>
+                <li><a href="#tech-projects" data-i18n="nav-tech-projects">Projects</a></li>
+                <li><a href="#leadership" data-i18n="nav-leadership">Leadership</a></li>
+                <li><a href="#contact" data-i18n="nav-contact">Contact</a></li>
+            </ul>
+            <div class="header-actions">
+                <button id="lang-toggle" class="lang-btn">TR</button>
+                <div class="menu-toggle" id="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1 class="fade-in" data-i18n="hero-greeting">Hi, I'm Hamit.</h1>
+                    <h2 class="slide-up" data-i18n="hero-title">Software Engineer</h2>
+                    <p class="fade-in-delayed" data-i18n="hero-description">Passionate about building innovative software solutions, from enterprise web applications to deep learning and mobile development.</p>
+                    <div class="hero-btns slide-up-delayed">
+                        <a href="#contact" class="btn primary" data-i18n="btn-contact">Contact Me</a>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/hamit-gunes" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/Hamit3306" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://www.instagram.com/hamitgnes/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="profile-container slide-up">
+                        <img src="profile.png" alt="Hamit Güneş" class="profile-img">
+                        <div class="profile-glow"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <a href="#about"><i class="fas fa-chevron-down"></i></a>
+            </div>
+        </section>
+
+        <!-- Biography Section -->
+        <section id="about" class="about-section bg-alt">
+            <div class="container">
+                <div class="section-title">
+                    <h2 data-i18n="sec-about">Biography</h2>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p data-i18n="about-p1">I am a Software Engineering student at Ankara Science University, currently in my 3rd year. I have a strong foundation in a diverse range of programming languages, machine learning, and modern development frameworks. My professional journey is driven by a passion for solving complex, real-world problems and creating scalable, intelligent applications.</p>
+                        <p data-i18n="about-p2">During my internship at MG Engineering, I honed my analytical skills in design processes and technical documentation, gaining valuable insight into the professional engineering world. I thrive in multidisciplinary environments and constantly adapt to cutting-edge technologies to architect optimal solutions.</p>
+                    </div>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <h3 data-i18n="stat-1-num">9+</h3>
+                            <p data-i18n="stat-1">Technical Projects</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>2022</h3>
+                            <p data-i18n="stat-2">Started Engineering</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Experience -->
+        <section id="education" class="exp-section">
+            <div class="container">
+                <div class="timeline-container">
+                    <div class="timeline-column">
+                        <div class="section-title">
+                            <h2 data-i18n="sec-education">Education</h2>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">2022 - Present</div>
+                                <div class="timeline-content">
+                                    <h3 data-i18n="edu-degree">Software Engineering</h3>
+                                    <h4 data-i18n="edu-uni">Ankara Science University</h4>
+                                    <p data-i18n="edu-desc">Focusing on advanced algorithms, machine learning, and software architecture.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-column">
+                        <div class="section-title">
+                            <h2 data-i18n="sec-experience">Experience</h2>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">2024</div>
+                                <div class="timeline-content">
+                                    <h3 data-i18n="exp-role">Engineering Internship</h3>
+                                    <h4 data-i18n="exp-company">MG Engineering</h4>
+                                    <p data-i18n="exp-desc">Gained hands-on experience in engineering design processes, participating in projects and preparing technical documentation.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Projects Section (NEW) -->
+        <section id="tech-projects" class="projects-section bg-alt">
+            <div class="container">
+                <div class="section-title">
+                    <h2 data-i18n="sec-tech-projects">Technical Projects</h2>
+                </div>
+                <div class="grid projects-grid">
+                    
+                    <!-- Project 1 -->
+                    <div class="project-card tech-card">
+                        <div class="project-info">
+                            <div class="project-header">
+                                <i class="fas fa-brain project-card-icon"></i>
+                                <h3 data-i18n="tp-1-title">Real-Time Deepfake System</h3>
+                            </div>
+                            <p data-i18n="tp-1-desc">Developed a real-time deepfake application performing live face swapping and voice conversion on video streams.</p>
+                            <div class="tech-stack">
+                                <span>Deep Learning</span><span>Computer Vision</span><span>GANs</span><span>Python</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card tech-card">
+                        <div class="project-info">
+                            <div class="project-header">
+                                <i class="fas fa-newspaper project-card-icon"></i>
+                                <h3 data-i18n="tp-2-title">AI Personalized News</h3>
+                            </div>
+                            <p data-i18n="tp-2-desc">Developed an intelligent news aggregation platform using ML algorithms to personalize content delivery based on reading habits.</p>
+                            <div class="tech-stack">
+                                <span>Machine Learning</span><span>NLP</span><span>APIs</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card tech-card">
+                        <div class="project-info">
+                            <div class="project-header">
+                                <i class="fas fa-chart-line project-card-icon"></i>
+                                <h3 data-i18n="tp-3-title">Obesity Risk Prediction</h3>
+                            </div>
+                            <p data-i18n="tp-3-desc">Conducted data mining analysis applying preprocessing, feature engineering, and multiple classification models.</p>
+                            <div class="tech-stack">
+                                <span>Python</span><span>Scikit-learn</span><span>Data Mining</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card tech-card">
+                        <div class="project-info">
+                            <div class="project-header">
+                                <i class="fas fa-language project-card-icon"></i>
+                                <h3 data-i18n="tp-4-title">AI Language Platform</h3>
+                            </div>
+                            <p data-i18n="tp-4-desc">Built adaptive ML system personalizing curriculum based on user performance, achieving 35% pronunciation accuracy improvement.</p>
+                            <div class="tech-stack">
+                                <span>Machine Learning</span><span>NLP</span><span>Web Dev</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="project-card tech-card">
+                        <div class="project-info">
+                            <div class="project-header">
+                                <i class="fas fa-utensils project-card-icon"></i>
+                                <h3 data-i18n="tp-5-title">Global Recipe Network</h3>
+                            </div>
+                            <p data-i18n="tp-5-desc">Architected scalable platform supporting 1000+ concurrent users with advanced search and multi-language support.</p>
+                            <div class="tech-stack">
+                                <span>Full-Stack</span><span>RESTful APIs</span><span>Cloud</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 6 -->
+                    <div class="project-card tech-card">
+                        <div class="project-info">
+                            <div class="project-header">
+                                <i class="fas fa-home project-card-icon"></i>
+                                <h3 data-i18n="tp-6-title">Smart Home Automation</h3>
+                            </div>
+                            <p data-i18n="tp-6-desc">Developed IoT control interface with voice/gesture recognition, reducing energy consumption by 28%.</p>
+                            <div class="tech-stack">
+                                <span>IoT/Embedded</span><span>Real-time</span><span>UI/UX</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 7 -->
+                    <div class="project-card tech-card">
+                        <div class="project-info">
+                            <div class="project-header">
+                                <i class="fas fa-cogs project-card-icon"></i>
+                                <h3 data-i18n="tp-7-title">Process Automation Framework</h3>
+                            </div>
+                            <p data-i18n="tp-7-desc">Created workflow optimization framework improving process efficiency by 40% through intelligent automation.</p>
+                            <div class="tech-stack">
+                                <span>Process Mining</span><span>Data Analytics</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 8 -->
+                    <div class="project-card tech-card">
+                        <div class="project-info">
+                            <div class="project-header">
+                                <i class="fas fa-mobile-alt project-card-icon"></i>
+                                <h3 data-i18n="tp-8-title">Course Directory App</h3>
+                            </div>
+                            <p data-i18n="tp-8-desc">Developed Android application with dynamic filtering, live search, and complex custom adapters.</p>
+                            <div class="tech-stack">
+                                <span>Android/Kotlin</span><span>RecyclerView</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 9 -->
+                    <div class="project-card tech-card">
+                        <div class="project-info">
+                            <div class="project-header">
+                                <i class="fas fa-id-card project-card-icon"></i>
+                                <h3 data-i18n="tp-9-title">Verification System</h3>
+                            </div>
+                            <p data-i18n="tp-9-desc">Built Android application with MVVM architecture, Room Database, and camera integration for participant management.</p>
+                            <div class="tech-stack">
+                                <span>Kotlin/MVVM</span><span>Room</span><span>Live Data</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Leadership & Competitions -->
+        <section id="leadership" class="leadership-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2 data-i18n="sec-leadership-comps">Competitions & Leadership</h2>
+                </div>
+                <div class="grid leadership-grid">
+                    
+                    <div class="card">
+                        <div class="icon-box"><i class="fas fa-users"></i></div>
+                        <h3 data-i18n="ldr-club1-title">Development Student Club</h3>
+                        <p class="role" data-i18n="ldr-club1-role">President | 2025 - Present</p>
+                        <ul class="card-list">
+                            <li data-i18n="ldr-club1-l1">Lead organization of software and tech projects.</li>
+                            <li data-i18n="ldr-club1-l2">Established project team for Teknofest 2026.</li>
+                            <li data-i18n="ldr-club1-l3">Manage promotional activities to grow community.</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <div class="icon-box"><i class="fas fa-rocket"></i></div>
+                        <h3 data-i18n="prj-1-title">Teknofest 2026</h3>
+                        <p class="role" data-i18n="prj-1-tag">Team Captain</p>
+                        <p data-i18n="prj-1-desc">Leading the project team focusing on building innovative engineering and software solutions through interdisciplinary collaboration.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="icon-box"><i class="fab fa-google"></i></div>
+                        <h3 data-i18n="ldr-club2-title">GDSC</h3>
+                        <p class="role" data-i18n="ldr-club2-role">Social Media Head | 2024</p>
+                        <p data-i18n="ldr-club2-desc">Managed digital strategies, increasing event reach and strengthening club visibility.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="icon-box"><i class="fas fa-award"></i></div>
+                        <h3 data-i18n="prj-2-title">TÜBİTAK Project</h3>
+                        <p class="role" data-i18n="prj-2-tag">Project Captain | 2019</p>
+                        <p data-i18n="prj-2-desc">Participated in national competition demonstrating creativity, technical competence, and problem-solving ability.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="icon-box"><i class="fas fa-space-shuttle"></i></div>
+                        <h3 data-i18n="ldr-club3-title">Tuğra Rocket Team</h3>
+                        <p class="role" data-i18n="ldr-club3-role">Vice President | 2024</p>
+                        <p data-i18n="ldr-club3-desc">Served as Vice President preparing for the Teknofest Rocket Competition, coordinating sub-teams and assisting rocket design.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="icon-box"><i class="fas fa-theater-masks"></i></div>
+                        <h3 data-i18n="ldr-club4-title">Theatre & Music Club</h3>
+                        <p class="role" data-i18n="ldr-club4-role">Member</p>
+                        <p data-i18n="ldr-club4-desc">Active participant in theatre productions and musical performances within the university community.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section bg-alt">
+            <div class="container">
+                <div class="section-title">
+                    <h2 data-i18n="sec-skills">Technical Skills</h2>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3 data-i18n="skill-cat-1"><i class="fas fa-code"></i> Programming</h3>
+                        <div class="skill-tags">
+                            <span>Python</span><span>Java</span><span>C++</span><span>Kotlin</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 data-i18n="skill-cat-3"><i class="fas fa-robot"></i> AI & Data Science</h3>
+                        <div class="skill-tags">
+                            <span>Machine/Deep Learning</span><span>Computer Vision</span><span>NLP</span><span>Data Mining (Scikit-learn)</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 data-i18n="skill-cat-mob"><i class="fas fa-mobile-alt"></i> Mobile & Web</h3>
+                        <div class="skill-tags">
+                            <span>Android/Kotlin</span><span>MVVM/Jetpack</span><span>Room</span><span>HTML/CSS/PHP</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 data-i18n="skill-cat-db"><i class="fas fa-database"></i> Database & Tools</h3>
+                        <div class="skill-tags">
+                            <span>SQL/MySQL</span><span>Git/GitHub</span><span>VS Code/Android Studio</span><span>AutoCAD</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2 data-i18n="sec-contact">Get In Touch</h2>
+                </div>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <p data-i18n="contact-desc">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+                        <div class="contact-methods">
+                            <a href="tel:+905511026576" class="contact-link">
+                                <i class="fas fa-phone-alt"></i>
+                                <span>+90 551 102 65 76</span>
+                            </a>
+                            <a href="mailto:hamit.guuness@gmail.com" class="contact-link">
+                                <i class="fas fa-envelope"></i>
+                                <span>hamit.guuness@gmail.com</span>
+                            </a>
+                            <div class="contact-link">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span data-i18n="contact-loc">Ankara / Çankaya</span>
+                            </div>
+                        </div>
+                        <div class="contact-socials">
+                             <a href="https://www.linkedin.com/in/hamit-gunes" target="_blank"><i class="fab fa-linkedin"></i></a>
+                             <a href="https://github.com/Hamit3306" target="_blank"><i class="fab fa-github"></i></a>
+                             <a href="https://www.instagram.com/hamitgnes/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <!-- Formspree Integration -->
+                    <form action="https://formspree.io/f/xbdqogpp" method="POST" id="contact-form" class="glass-form">
+                        <input type="text" name="name" placeholder="Your Name" data-i18n-hold="form-name" required>
+                        <input type="email" name="email" placeholder="Your Email" data-i18n-hold="form-email" required>
+                        <textarea name="message" placeholder="Your Message" data-i18n-hold="form-msg" rows="5" required></textarea>
+                        <button type="submit" class="btn primary" data-i18n="form-submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p data-i18n="footer-text">&copy; 2026 Hamit Güneş. Architected with passion.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
